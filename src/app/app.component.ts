@@ -7,8 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   switcherOn = false;
-
+  secondswitcherOn = false;
   onSwitcherStateChange(switcherOn: boolean) {
     this.switcherOn = switcherOn;
+  }
+  onSwitcherchange(secondswitcherOn: boolean) {
+    this.secondswitcherOn = secondswitcherOn;
   }
 }
